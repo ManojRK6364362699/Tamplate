@@ -1,0 +1,301 @@
+/* for mobile */
+@media(max-width:768px){
+    .desktopBanner, .tabBanner{
+        display: none;
+    }
+    /* Mobile Banner */
+    .mobileBanner{
+        display: block;
+        overflow: hidden;
+        position: relative;        
+    }
+    .mobileBanner>header{
+        display: flex;
+        background:linear-gradient(to right,rgb(231, 237, 239),transparent,rgb(232, 241, 244)) ;       
+    }
+    .mobileBanner>header>nav{
+        /* text-align: center; */
+        padding: 10px;
+        max-width: 800px;
+    }
+    .mobileBanner>header>i{
+        position: relative;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .mobileBanner>header>nav>ul{
+        position: relative;
+        list-style-type: none;
+    }
+    .mobileBanner>header>nav>ul>li>a{
+        display: none;
+        overflow: hidden;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+    }
+    .mobileBanner>header>i{                
+        border: 1px solid black ;
+        margin: 10px 0px 0px 40px;
+        height: 40px;
+        overflow: hidden;
+        padding: 10px;
+        border-radius: 5px; 
+    } 
+    .mobileBanner>img{
+        height: 600px;
+    }
+    .para{
+         display: inline;
+        position: absolute;
+        text-align: left;
+        font-size: small;
+        top: 300px;
+        left: 200px;
+        right: 0px;
+        width: auto;        
+    } 
+    .para>h1{
+        display: flex;        
+        flex: 1;
+        
+    }
+    .para>.ContactUs{
+        overflow: hidden;
+        height: 40px;
+    }
+    .container2{
+        height: auto ;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .container2>.item{
+        align-items: center;
+        width: auto;
+        height: 500px;
+        overflow: hidden;
+    }
+    .container3{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .container3>.item{
+        text-align: left;
+    }
+    .container3>.item>p{ 
+        line-height: 20px; 
+        text-align: justify;
+        color: gray;           
+           
+       }
+    .container4{
+        background:linear-gradient(to right, rgba(216, 174, 148, 0.433) 10%, hsla(0, 8%, 7%, 0.669) 90%), url(../assets/images/sec-bg-01.ba6819d543b138a942a6.jpg) no-repeat left;
+    background-size: 300%;
+    background-attachment: fixed;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .container4>.item>h1{
+        overflow: hidden;
+        width: auto;
+        text-align: left;
+    }
+    .container4>.item{
+        width: auto;
+        height: auto;
+    }    
+    .container5{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        width: auto;
+            }
+    .container5>img{
+        width: 150px;
+        height: auto;
+    }
+    #heading{
+        text-align: center;
+    }
+    .container6{
+        display: flex;
+        flex-flow: row wrap; 
+        align-items: center; 
+        width: auto;      
+    }
+    .container6>.item{
+        display: flex;
+        flex-flow: column wrap;
+        width: 500px;
+        height: auto;        
+        flex-shrink: 3;
+    }
+    .container6>.item>h1{
+        text-align: center;
+        width: 300px;
+    }
+    .footer{        
+        display: flex;
+        flex-flow: column wrap;
+        height: auto;
+        }
+        .footer>.item>i{
+            flex: 1;
+            flex-shrink: 3;    
+            }
+    .footer>.item>ul>li{
+        display: flex;
+        flex-flow: column wrap;        
+        line-height: 20px;        
+        font-size: smaller;
+        font-weight: lighter;
+        overflow: hidden;
+        height: 20px;
+    }
+    
+
+}
+
+/* for tab */
+@media(min-width:769px) and (max-width:1200px){
+    .desktopBanner,.mobileBanner{
+        display: none;
+    }
+    .tabBanner{
+        display: inline-block;
+        overflow: hidden;
+        position: relative;        
+    }
+    .tabBanner>header{        
+        background: radial-gradient(circle,rgb(210, 227, 227),rgb(216, 218, 219),transparent);
+        padding: 10px;
+    }
+    .tabBanner>header>nav{
+        display: flex;
+         column-gap: 200px; 
+        flex-flow: row wrap;
+        align-items: center;
+        overflow: hidden;
+        padding: 20px;      
+    } 
+    .tabBanner>header>nav>i{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+    }   
+    .tabBanner>header>nav>ul{
+        list-style-type: none;
+    }
+    .tabBanner>header>nav>ul>li>a{
+        /* display: inline; */
+        text-decoration: none;
+        line-height: 30px;
+        padding: 20px;
+    }
+    .mobileBanner>img{
+        height: 600px;
+    }
+    .para{
+         overflow: hidden; 
+         text-align: right;
+         font-size: medium;
+         position: absolute;  
+         height: auto; 
+         top: 340px;  
+         left: 500px; 
+    } 
+    .para>p{
+        font-style: italic;
+        font-size:20px;
+    overflow: hidden;
+    height: 200px;
+        
+    }
+    .para>.ContactUs{
+        overflow: hidden;
+        
+    }
+    .container2{
+        height: auto ;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .container2>.item{
+        align-items: center;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .container3{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+    }
+    .container3>.item{
+        font-size: medium;
+        text-align: left;
+        overflow: hidden;
+        height: 100%;
+        
+    }
+    .container3>.item:last-child{
+       font-size: smaller;
+    }
+    .container4{
+        background:linear-gradient(to right, rgba(216, 174, 148, 0.433) 10%, hsla(0, 8%, 7%, 0.669) 90%), url(../assets/images/sec-bg-01.ba6819d543b138a942a6.jpg) no-repeat left;
+    background-size: 300%;
+    background-attachment: fixed;
+        display: flex;
+        flex-flow: row wrap;
+    }
+     .container4>.item>h1{
+        overflow: hidden;
+        height: auto;
+        width: auto;
+        text-align: left;
+    }
+    
+    .container5{
+        display: flex;
+        flex-flow: row wrap;
+         gap: 50px;
+        align-items: center;
+        width: auto;
+    }
+    .container5>img{
+        width: 100px;
+        height: auto;
+    }
+    #heading{
+        text-align: center;
+    }
+    .container6{
+        display: flex;
+        flex-flow: row wrap; 
+        flex-shrink: 2;       
+    }
+    .container6>.item{
+        flex:1;
+        flex-shrink: 3;
+        align-items: center;
+        height: auto;
+        width: 80px;
+       
+    }
+    .footer{        
+        /* display: flex;
+        flex-flow: row wrap; */
+        height: auto;
+        }
+    .footer>.item>ul>li{
+        display: flex;
+        flex-flow: row wrap;        
+        line-height: 20px;        
+        font-size: smaller;
+        font-weight: lighter;
+        width: 100px;
+    }
+}
